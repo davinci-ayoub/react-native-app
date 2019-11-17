@@ -3,7 +3,9 @@ import { Text, View } from 'react-native';
 import * as Font from 'expo-font';
 import { AppLoading } from 'expo';
 
+
 import MealsNavigator from './navigation/MealsNavigator';
+
 
 const fetchFonts = () => {
   return Font.loadAsync({
